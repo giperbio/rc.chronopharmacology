@@ -1,0 +1,28 @@
+citHeader("To cite {rc.chronopharmacology} in publications use:")
+
+citEntry(
+  entry       = "Unpublished",
+  title       = paste0("{rc.chronopharmacology}:", " ",
+                       "an R package with the research compendium of the", " ",
+                       "GIPSO", " ",
+                       "chronopharmacology", " ",
+                       "systematic quantitative literature review"),
+  author      = personList(as.person("Alisson da Silva Rodrigues dos Santos"),
+                           as.person("Daniel Vartanian"),
+                           as.person("Mario Pedrazzoli")),
+  year        = "2022",
+  url         = paste0("https://gipso.github.io/",
+                        "rc.chronopharmacology/"),
+  textVersion = paste0("Rodrigues-Santos, A. S.", ", ",
+                       "Vartanian, D.", ", & ",
+                       "Pedrazzoli, M.", " ",
+                       "(2022)",  ". ",
+                       "{rc.chronopharmacology}:", " ",
+                       "an R package with the research compendium of the", " ",
+                       "GIPSO", " ",
+                       "chronopharmacology", " ",
+                       "systematic quantitative literature review.", " ",
+                       "https://gipso.github.io/",
+                       "rc.chronopharmacology/"),
+  note        = "Lifecycle: experimental"
+)

@@ -1,0 +1,17 @@
+^\.archive$
+^\.github$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^analysis$
+^CITATION\.cff$
+^CODE_OF_CONDUCT\.md$
+^codecov\.yml$
+^codemeta\.json$
+^data-raw$
+^doc$
+^LICENSE\.md$
+^man-roxygen$
+^Meta$
+^pkgdown$
+^rc\.chronopharmacology\.Rproj$
+^README\.Rmd$
