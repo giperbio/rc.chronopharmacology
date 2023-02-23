@@ -4,9 +4,9 @@
 \name{rc.chronopharmacology-package}
 \alias{rc.chronopharmacology}
 \alias{rc.chronopharmacology-package}
-\title{rc.chronopharmacology: Research Compendium of the GIPERBIO Chronopharmacology SQLR}
+\title{rc.chronopharmacology: Research Compendium of the Chronopharmacology SQLR Project}
 \description{
-Research compendium of the GIPERBIO chronopharmacology systematic quantitative literature review.
+Research compendium of the chronopharmacology systematic quantitative literature review project.
 }
 \seealso{
 Useful links:

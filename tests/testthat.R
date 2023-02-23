@@ -27,7 +27,7 @@ test_check("rc.chronopharmacology")
 # spelling::update_wordlist()
 # urlchecker::url_check()
 # usethis::use_coverage()
-# usethis::use_github_action("check-standard")
+# usethis::use_github_action("check-release")
 # usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
 

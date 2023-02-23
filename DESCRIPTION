@@ -1,5 +1,5 @@
 Package: rc.chronopharmacology
-Title: Research Compendium of the GIPERBIO Chronopharmacology SQLR
+Title: Research Compendium of the Chronopharmacology SQLR Project
 Version: 0.0.0.9000
 Authors@R: c(
         person(
@@ -17,8 +17,8 @@ Authors@R: c(
             comment = c(ORCID = "0000-0001-7782-759X")
             )
         )
-Description: Research compendium of the GIPERBIO chronopharmacology systematic 
-    quantitative literature review.
+Description: Research compendium of the chronopharmacology systematic 
+    quantitative literature review project.
 License: MIT + file LICENSE
 URL: https://github.com/giperbio/rc.chronopharmacology/
 BugReports: https://github.com/giperbio/rc.chronopharmacology/issues/

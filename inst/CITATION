@@ -4,9 +4,8 @@ utils::bibentry(
     title = paste0(
         "{rc.chronopharmacology}:", " ",
         "research compendium of the", " ",
-        "GIPERBIO", " ",
         "chronopharmacology", " ",
-        "systematic quantitative literature review"
+        "systematic quantitative literature review project"
         ),
     author = c(
         person(
@@ -36,11 +35,10 @@ utils::bibentry(
         "(2023)",  ". ",
         "{rc.chronopharmacology}:", " ",
         "research compendium of the", " ",
-        "GIPERBIO", " ",
         "chronopharmacology", " ",
-        "systematic quantitative literature review", ". ",
+        "systematic quantitative literature review project", ". ",
         "R package version 0.0.0.9000", ". ",
         "https://giperbio.github.io/",
         "rc.chronopharmacology/"
         )
-)
+    )

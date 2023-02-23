@@ -2,8 +2,8 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "identifier": "rc.chronopharmacology",
-  "description": "Research compendium of the GIPERBIO chronopharmacology systematic quantitative literature review.",
-  "name": "rc.chronopharmacology: Research Compendium of the GIPERBIO Chronopharmacology SQLR",
+  "description": "Research compendium of the chronopharmacology systematic quantitative literature review project.",
+  "name": "rc.chronopharmacology: Research Compendium of the Chronopharmacology SQLR Project",
   "codeRepository": "https://github.com/giperbio/rc.chronopharmacology/",
   "issueTracker": "https://github.com/giperbio/rc.chronopharmacology/issues/",
   "license": "https://spdx.org/licenses/MIT",
@@ -208,7 +208,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "54680.968KB",
+  "fileSize": "54681.401KB",
   "citation": [
     {
       "@type": "CreativeWork",
@@ -229,7 +229,7 @@
           "@id": "https://orcid.org/0000-0001-7782-759X"
         }
       ],
-      "name": "{rc.chronopharmacology}: research compendium of the GIPERBIO chronopharmacology systematic quantitative literature review",
+      "name": "{rc.chronopharmacology}: research compendium of the chronopharmacology systematic quantitative literature review project",
       "url": "https://giperbio.github.io/rc.chronopharmacology/",
       "description": "R package version 0.0.0.9000"
     }
