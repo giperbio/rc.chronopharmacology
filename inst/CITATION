@@ -1,28 +1,46 @@
-citHeader("To cite {rc.chronopharmacology} in publications use:")
-
-citEntry(
-  entry       = "Unpublished",
-  title       = paste0("{rc.chronopharmacology}:", " ",
-                       "an R package with the research compendium of the", " ",
-                       "GIPSO", " ",
-                       "chronopharmacology", " ",
-                       "systematic quantitative literature review"),
-  author      = personList(as.person("Alisson da Silva Rodrigues dos Santos"),
-                           as.person("Daniel Vartanian"),
-                           as.person("Mario Pedrazzoli")),
-  year        = "2022",
-  url         = paste0("https://gipso.github.io/",
-                        "rc.chronopharmacology/"),
-  textVersion = paste0("Rodrigues-Santos, A. S.", ", ",
-                       "Vartanian, D.", ", & ",
-                       "Pedrazzoli, M.", " ",
-                       "(2022)",  ". ",
-                       "{rc.chronopharmacology}:", " ",
-                       "an R package with the research compendium of the", " ",
-                       "GIPSO", " ",
-                       "chronopharmacology", " ",
-                       "systematic quantitative literature review.", " ",
-                       "https://gipso.github.io/",
-                       "rc.chronopharmacology/"),
-  note        = "Lifecycle: experimental"
+utils::bibentry(
+    header = "To cite {rc.chronopharmacology} in publications use:",
+    bibtype  = "Unpublished",
+    title = paste0(
+        "{rc.chronopharmacology}:", " ",
+        "research compendium of the", " ",
+        "GIPERBIO", " ",
+        "chronopharmacology", " ",
+        "systematic quantitative literature review"
+        ),
+    author = c(
+        person(
+            given = "Alisson",
+            family = "da Silva Rodrigues dos Santos",
+            role = c("aut", "cph"),
+            email = "alisson.rodriguesds@gmail.com",
+            comment = c(ORCID = "0000-0002-5455-3562")
+            ),
+        person(
+            given = "Daniel",
+            family = "Vartanian",
+            role = c("aut", "cre", "ccp", "cph"),
+            email = "danvartan@gmail.com",
+            comment = c(ORCID = "0000-0001-7782-759X")
+            )
+        ),
+    year = "2023",
+    url = paste0(
+        "https://giperbio.github.io/",
+        "rc.chronopharmacology/"
+        ),
+    note = "R package version 0.0.0.9000",
+    textVersion = paste0(
+        "Rodrigues-Santos, A. S.", ", & ",
+        "Vartanian, D.", " ",
+        "(2023)",  ". ",
+        "{rc.chronopharmacology}:", " ",
+        "research compendium of the", " ",
+        "GIPERBIO", " ",
+        "chronopharmacology", " ",
+        "systematic quantitative literature review", ". ",
+        "R package version 0.0.0.9000", ". ",
+        "https://giperbio.github.io/",
+        "rc.chronopharmacology/"
+        )
 )

@@ -10,9 +10,9 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipso/rc.chronopharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/rc.chronopharmacology/actions)
+[![R-CMD-check](https://github.com/giperbio/rc.chronopharmacology/workflows/R-CMD-check/badge.svg)](https://github.com/giperbio/rc.chronopharmacology/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/gipso/rc.chronopharmacology/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/rc.chronopharmacology?branch=main)
+coverage](https://codecov.io/gh/giperbio/rc.chronopharmacology/branch/main/graph/badge.svg)](https://app.codecov.io/gh/giperbio/rc.chronopharmacology?branch=main)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
@@ -20,10 +20,10 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 ## Overview
 
 `rc.chronopharmacology` is an R package with the research compendium of
-the Interdisciplinary Sleep Research Group (GIPSO) chronopharmacology
-systematic quantitative literature review. The aim of
-`rc.chronopharmacology` is to facilitate the research work, in addition
-to contributing to the reproducibility of the research.
+the Interdisciplinary Research Group on Biological Rhythms (GIPERBIO)
+chronopharmacology systematic quantitative literature review. The aim of
+`rc.chronopharmacology` is to facilitate the research work and to
+improve reproducibility in research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
@@ -34,11 +34,11 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-You can install `rc.chronopharmacology` from GitHub with:
+You can install `rc.chronopharmacology` with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("gipso/rc.chronopharmacology")
+remotes::install_github("giperbio/rc.chronopharmacology")
 ```
 
 We don’t intend to publish this package to CRAN.
@@ -55,18 +55,19 @@ citation("rc.chronopharmacology")
 #> 
 #> To cite {rc.chronopharmacology} in publications use:
 #> 
-#>   Rodrigues-Santos, A. S., Vartanian, D., & Pedrazzoli, M. (2022).
-#>   {rc.chronopharmacology}: an R package with the research compendium of
-#>   the GIPSO chronopharmacology systematic quantitative literature
-#>   review. https://gipso.github.io/rc.chronopharmacology/
+#>   Rodrigues-Santos, A. S., & Vartanian, D. (2023).
+#>   {rc.chronopharmacology}: research compendium of the GIPERBIO
+#>   chronopharmacology systematic quantitative literature review. R
+#>   package version 0.0.0.9000.
+#>   https://giperbio.github.io/rc.chronopharmacology/
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{rc.chronopharmacology}: an R package with the research compendium of the GIPSO chronopharmacology systematic quantitative literature review},
-#>     author = {Alisson da Silva Rodrigues dos Santos and Daniel Vartanian and Mario Pedrazzoli},
-#>     year = {2022},
-#>     url = {https://gipso.github.io/rc.chronopharmacology/},
-#>     note = {Lifecycle: experimental},
+#>     title = {{rc.chronopharmacology}: research compendium of the GIPERBIO chronopharmacology systematic quantitative literature review},
+#>     author = {Alisson {da Silva Rodrigues dos Santos} and Daniel Vartanian},
+#>     year = {2023},
+#>     url = {https://giperbio.github.io/rc.chronopharmacology/},
+#>     note = {R package version 0.0.0.9000},
 #>   }
 ```

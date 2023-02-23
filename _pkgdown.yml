@@ -8,8 +8,13 @@ template:
 
 navbar:
   structure:
-    left:  [intro, reference, articles, news]
-    right: [github]
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - news
+    right: github
   components:
     home: ~
     news: ~
@@ -17,6 +22,8 @@ navbar:
 
 reference:
 - title: Data
+  desc: >
+    Data entities created in the review.
   contents:
   - sheets
   - domain
@@ -36,7 +43,7 @@ reference:
 
 authors:
   Alisson da Silva Rodrigues dos Santos:
-    href: https://github.com/AlissonSRSantos
+    href: https://github.com/alissonsrsantos
   Daniel Vartanian:
     href: https://github.com/danielvartan
 

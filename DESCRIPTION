@@ -1,39 +1,43 @@
 Package: rc.chronopharmacology
-Title: Research Compendium of the Chronopharmacology SQLR
+Title: Research Compendium of the GIPERBIO Chronopharmacology SQLR
 Version: 0.0.0.9000
-Authors@R: 
-    c(person(given = "Alisson",
-             family = "da Silva Rodrigues dos Santos",
-             role = c("aut", "cph"),
-             email = "alisson.rodriguesds@gmail.com",
-             comment = c(ORCID = "0000-0002-5455-3562")),
-      person(given = "Daniel",
-             family = "Vartanian",
-             role = c("aut", "cre", "ccp", "cph"),
-             email = "danvartan@gmail.com",
-             comment = c(ORCID = "0000-0001-7782-759X")))
-Description: Research compendium of the chronopharmacology systematic 
+Authors@R: c(
+        person(
+            given = "Alisson",
+            family = "da Silva Rodrigues dos Santos",
+            role = c("aut", "cph"),
+            email = "alisson.rodriguesds@gmail.com",
+            comment = c(ORCID = "0000-0002-5455-3562")
+            ),
+        person(
+            given = "Daniel",
+            family = "Vartanian",
+            role = c("aut", "cre", "ccp", "cph"),
+            email = "danvartan@gmail.com",
+            comment = c(ORCID = "0000-0001-7782-759X")
+            )
+        )
+Description: Research compendium of the GIPERBIO chronopharmacology systematic 
     quantitative literature review.
 License: MIT + file LICENSE
-URL: https://giperbio.github.io/rc.chronopharmacology/, 
-     https://github.com/giperbio/rc.chronopharmacology/
+URL: https://github.com/giperbio/rc.chronopharmacology/
 BugReports: https://github.com/giperbio/rc.chronopharmacology/issues/
 Depends:
-    R (>= 4.1)
+    R (>= 4.2)
 Imports: 
-    checkmate (>= 2.0.0),
-    cli (>= 3.1.0),
-    dplyr (>= 1.0.7),
+    checkmate (>= 2.1.0),
+    cli (>= 3.6.0),
+    dplyr (>= 1.1.0),
     gutils,
-    lifecycle (>= 1.0.1),
+    lifecycle (>= 1.0.3),
     sqlr
 Suggests: 
-    covr (>= 3.5.1),
-    knitr (>= 1.36),
-    mockr (>= 0.1),
-    rmarkdown (>= 2.11),
+    covr (>= 3.6.1),
+    knitr (>= 1.42),
+    mockr (>= 0.2.1),
+    rmarkdown (>= 2.20),
     spelling (>= 2.2),
-    testthat (>= 3.0.0)
+    testthat (>= 3.1.6)
 Remotes: 
     github::giperbio/gutils,
     github::giperbio/sqlr
@@ -45,4 +49,4 @@ Language: en-US
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
