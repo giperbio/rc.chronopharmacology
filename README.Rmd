@@ -43,7 +43,7 @@ You can install `rc.chronopharmacology` with:
 remotes::install_github("giperbio/rc.chronopharmacology")
 ```
 
-We don’t intend to publish this package to CRAN.
+We don’t intend to publish this package on CRAN.
 
 ## License
 
